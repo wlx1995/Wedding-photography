@@ -1,0 +1,89 @@
+/**** carousel 1****/
+.container{
+    width: 100%;
+}
+#car{
+    height: 720px;
+}
+#car  a{
+    display:block;
+    position:absolute; top:188px; left:0;
+    width: 100% !important;
+    height: 740px;
+    opacity:0;
+    transition:all .5s linear;
+}
+#car  a img{
+    width: 100%;
+}
+#car a.show{  
+    opacity:1;  
+    z-index:10;
+}
+/****** video  ******/
+.container .video a {
+    background-image: url(../img/7.png);
+    display: block;
+    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.container .big_img{
+    width: 1240px;
+    height: 724px;
+    margin:0 auto;
+    position: relative;
+} 
+.container .big_img a img{
+    width: 1240px;
+    height:640px ;  
+}
+.mask_l{
+    background: url(../img/mask_l.png) no-repeat;
+    background-size:100% 100%;
+    width: 620px;
+    height: 640px;
+    position: absolute;
+    top:0;
+    left:0;
+    transition:.7s;
+}
+.mask_r{
+    background: url(../img/mask_r.png) no-repeat;
+    background-size:100% 100%;
+    width: 620px;
+    height: 640px;
+    position: absolute;
+    top:0;
+    right:0;
+    transition:.7s;
+}
+.container .big_img a:hover .mask_l{
+    left:-620px;
+}
+.container .big_img a:hover .mask_r{
+    right:-620px;
+}
+.big_img_middle{
+    width: 787px;
+    height: 40px;
+    margin:-30px auto 0 ;
+}
+.big_img_bot{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    padding:20px;
+}
+.big_img_bot p:first-child{
+    font-size:30px;
+    font-family:"楷体";
+}
+.big_img_bot p:first-child>span,.big_img_bot p:last-child{
+    font-size: 18px;
+    color: #999;
+    font-style: italic;
+    margin-left:10px;
+}

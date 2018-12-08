@@ -1,0 +1,75 @@
+a{
+    text-decoration: none;
+}
+/**** carousel 1****/
+.container{
+    width: 100%;
+}
+#car{
+    height: 720px;
+}
+#car  a{
+    display:block;
+    position:absolute; top:188px; left:0;
+    width: 100% !important;
+    height: 680px;
+    opacity:0;
+    transition:all .5s linear;
+  }
+#car a.show{  
+    opacity:1;  
+    z-index:10;
+}
+/** Latest Activity **/
+.container .lat a {
+    background-image: url(../img/act.png);
+    display: block;
+    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top:-42px;
+}
+.container .act{
+    width: 1200px;
+    margin:0 auto;
+}
+.container .act  li{
+   padding:20px;
+}
+.container .act li a h3{
+    margin-top:20px;
+    font-size: 26px;
+    color: #565656;
+}
+.container .act li a span{
+    font-size: 13px;
+    color: #c7c7c7;
+}
+.container .act li a p{
+    margin:-40px -20px;
+    width: 160px;
+    height: 43px;
+    background: url(../img/more.png) 50% 50% no-repeat ;
+    float:right;
+}
+#fenye{
+    width: 1234px;
+    height: 175px;
+    text-align: center;
+    margin:0 auto;
+}
+#fenye a{
+    color: #333;
+    height: 55px;
+    width: 55px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 40px;
+    border: 2px solid #efefef;
+    line-height:55px;
+}
+#fenye a:nth-child(2){
+    color: #fff;
+    background: #840b15;
+    border: 2px solid #840b15;
+}

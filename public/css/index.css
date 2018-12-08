@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+/**** carousel 1****/
+.container{
+    width: 100%;
+}
+#car{
+    height: 720px;
+}
+#car  a{
+    display:block;
+    position:absolute; top:188px; left:0;
+    width: 100% !important;
+    height: 680px;
+    opacity:0;
+    transition:all .5s linear;
+  }
+#car a.show{  
+    opacity:1;  
+    z-index:10;
+}
+/****** Activity *********/
+div.container .act{
+    text-align: center;
+    position: relative;
+}
+div.container .act a{
+    background:url("../img/1.png");
+    display: block;
+    height: 170px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+div.container .act .act-middle{
+    width: 1340px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-around;
+}
+div.container .act .act-middle a{
+    height: 385px;
+}
+div.container .more {
+    width: 160px;
+    height: 72px;
+    margin: 0 auto;
+}
+div.container .more a{
+    display: block;
+    width: 160px;
+    height: 42px;
+    background: url("../img/more.png") 50% 50% no-repeat;
+    position: relative;
+    top: 30px;  
+}
+/****** NEW RELEASE *******/
+div.container .rel{
+    height: 170px;
+    text-align: center;
+    position: relative;
+}
+div.container .rel a{
+    background:url("../img/2.png");
+    display: block;
+    width: 1200px;
+    height: 170px;
+    margin:0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/******* rel-show 2 *******/
+#new-rel{
+    height: 810px;   
+}
+#new-rel  a{
+    display:block;
+    width: 100% !important;
+    position: absolute;
+    height: 810px;
+  }
+/******* ser *********/
+#ser{
+    width: 1202px;
+    margin:0 auto;
+}
+#ser .ser_list{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+}
+#ser .ser_list li{
+    width: 232px;
+    height: 147px;
+}
+#ser p{
+    font-size:18px;
+    color:#666;
+    margin-bottom:10px;
+}
+#ser p:hover{
+    color:#840b15;
+    cursor:pointer;
+}
+#ser a{
+    display:block;
+    width: 232px;
+    height: 110px;
+}
+/********** WORKS PHOTO ***********/
+div.container .works a{
+    background:url("../img/3.png");
+    display: block;
+    width: 1200px;
+    height: 170px;
+    margin:0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+div.container .photo ul{
+    margin:0 auto;
+    width: 1200px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+div.container .photo ul li  h3{
+    margin-top:25px;
+}
+div.container .photo ul li p{
+    background: url("../img/zp_list_more.jpg") no-repeat;
+    width: 214px;
+    height: 39px;
+    margin:30px;
+}
+/************* Video *************/
+.vid{
+    width: 100%;
+}
+.vid>a{
+    background:url("../img/7.png");
+    display: block;
+    width: 1200px;
+    height: 170px;
+    margin:0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.vid .vid-bottom {
+    width: 1200px;
+    margin:0 auto;
+}

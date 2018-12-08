@@ -1,0 +1,65 @@
+/**** carousel 1****/
+.container{
+    width: 100%;
+}
+#car{
+    height: 820px;
+}
+#car  a{
+    display:block;
+    position:absolute; top:188px; left:0;
+    width: 100% !important;
+    height: 820px;
+    opacity:0;
+    transition:all .5s linear;
+  }
+#car a.show{  
+    opacity:1;  
+    z-index:10;
+}div.container .works a{
+    background:url("../img/4.png");
+    display: block;
+    width: 1200px;
+    height: 170px;
+    margin:0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+div.container .photo ul{
+    margin:0 auto;
+    width: 1200px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between
+}
+div.container .photo ul li  h3{
+    margin-top:25px;
+}
+div.container .photo ul li p{
+    background: url("../img/zp_list_more.jpg") no-repeat;
+    width: 214px;
+    height: 39px;
+    margin:40px 0px;
+}
+#fenye{
+    width: 1234px;
+    height: 175px;
+    text-align: center;
+    margin:0 auto;
+}
+#fenye a{
+    text-decoration:none;
+    color: #333;
+    height: 55px;
+    width: 55px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 40px;
+    border: 2px solid #efefef;
+    line-height:55px;
+}
+#fenye a:nth-child(2){
+    color: #fff;
+    background: #840b15;
+    border: 2px solid #840b15;
+}

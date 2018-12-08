@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/video.css">
+    <title>婚纱摄影-品牌视频</title>
+</head>
+<body>
+    <header>
+        <!--top-image-->
+        <div class="top">
+            <a href="#" id="logo"></a>
+            <div id="head_text"></div>
+        </div>
+        <!--nav-->
+        <div class="nav">
+            <div class="main">
+                <ul class="nav-item">
+                    <li class="bor"><a href="index.html" title="网站首页" class="col">
+                            <span>网站首页</span>
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li><a href="latest.html" title="最新活动">
+                            <span>最新活动</span>
+                            <p>Latest Activities</p>
+                        </a>
+                    </li>
+                    <li><a href="works.html" title="作品展示">
+                            <span>作品展示</span>
+                            <p>Works</p>
+                        </a>
+                    </li>
+                    <li><a href="guest.html" title="客片展示">
+                            <span>客片展示</span>
+                            <p>Guest Show</p>
+                        </a>
+                    </li>
+                    <li><a href="video.html" title="品牌视频">
+                            <span>品牌视频</span>
+                            <p>Brand Video</p>
+                        </a>
+                    </li>
+                    <li><a href="team.html" title="团队介绍">
+                            <span>团队介绍</span>
+                            <p>Trem Presentation</p>
+                        </a>
+                    </li>
+                    <li><a href="fullDress.html" title="礼服介绍">
+                            <span>礼服介绍</span>
+                            <p>Full Dress</p>
+                        </a>
+                    </li>
+                    <li><a href="brand.html" title="品牌介绍">
+                            <span>品牌介绍</span>
+                            <p>Brand</p>
+                        </a>
+                    </li>
+                    <li><a href="contact.html" title="联系我们">
+                            <span>联系我们</span>
+                            <p>Contact</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!--container-->
+<div class="container">
+    <!--carousel-->
+    <div id="car">
+        <a href="latest.html" class="show"><img src="../img/3.jpg"></a>
+        <a href="latest.html"><img src="../img/1.jpg"></a>
+        <a href="latest.html"><img src="../img/2.jpg"></a>
+        <a href="latest.html"><img src="../img/4.jpg"></a>
+    </div>
+    <!--Video-->
+    <div class="video"><a href="#"></a></div>
+    <div class="big_img">
+        <a href="http://www.520yn.com/content-4-1-1.html">
+            <img src="../img/video01.png">
+            <div class="mask_l"></div>
+            <div class="mask_r"></div>
+        </a> 
+    </div>
+    <div class="big_img_middle">
+        <img src="../img/video02.png">
+    </div>
+    <div class="big_img_bot">
+        <p>品牌视频<span>/Click Play</span></p>
+        <hr>
+        <p>hits.322 Dec.31,2017</p>
+    </div>
+</div>
+
+    <!--FOOTER-->
+    <iframe src="footer.html" style="width:100%;height:902px;" frameborder="0"></iframe>
+</body>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/index.js"></script>
+<script>
+    window.onscroll = function () {
+        var scrollTop = document.documentElement.scrollTop;
+        if (scrollTop >= 130) {
+            $(".nav").addClass("fixed");
+            $("header").css("height", 188);
+        } else
+            $(".nav").removeClass("fixed");
+    };
+
+</script>
+</html>
